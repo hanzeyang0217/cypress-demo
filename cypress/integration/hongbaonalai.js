@@ -16,6 +16,7 @@ describe('The Home Page', () => {
     cy.contains("投资").parent().next().children().type("3")
     cy.contains("房子").parent().next().children().type("9")
     cy.contains("手机").parent().next().children().type("1")
+    cy.contains("吃的").parent().next().children().type("4.5")
     cy.contains("烟酒").parent().next().children().type("3")
     cy.contains("交通").parent().next().children().type("1")
     cy.contains("成长").parent().next().children().type("1.5")
